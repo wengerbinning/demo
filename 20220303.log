@@ -1,0 +1,269 @@
+Script started on 2022-03-03 19:44:18+08:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="239" LINES="61"]
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m [K[36mwenger [34mdemo [31m$[0m touch COPYLING
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ln -s LIENCE[K[K[K[KCENSECLICENSEOLICENSEPLICENSEYLICENSEILICENSENLICENSEGLICENSE LICENSE
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m 
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m 
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls
+[?2004l20220303.log  COPYLING  [0m[01;36mLICENSE[0m  README.md
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -t [K[Kd destdir destdir/bin destdir/sbin destdir/usr
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tree
+[?2004l.
+├── 20220303.log
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+├── LICENSE -> COPYING
+└── README.md
+
+4 directories, 4 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -D destdir/usr/share
+[?2004linstall: missing destination file operand after 'destdir/usr/share'
+Try 'install --help' for more information.
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -D destdir/usr/share[1P destdir/usr/shared destdir/usr/share
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -t destdir/usr/share/[K COPYLING LICENSE 
+[?2004linstall: cannot stat 'LICENSE': No such file or directory
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls -al
+[?2004ltotal 20
+drwxr-xr-x  4 wenger wenger 4096 Mar  3 19:46 [0m[01;34m.[0m
+drwxr-xr-x 16 wenger wenger 4096 Mar  3 19:40 [01;34m..[0m
+-rw-r--r--  1 wenger wenger    0 Mar  3 19:44 20220303.log
+-rw-r--r--  1 wenger wenger    0 Mar  3 19:44 COPYLING
+drwxr-xr-x  5 wenger wenger 4096 Mar  3 19:46 [01;34mdestdir[0m
+drwxr-xr-x  8 wenger wenger 4096 Mar  3 19:43 [01;34m.git[0m
+lrwxrwxrwx  1 wenger wenger    7 Mar  3 19:45 [01;36mLICENSE[0m -> COPYING
+-rw-r--r--  1 wenger wenger   78 Mar  3 19:42 README.md
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tree
+[?2004l.
+├── 20220303.log
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+│       └── share
+│           └── COPYLING
+├── LICENSE -> COPYING
+└── README.md
+
+5 directories, 5 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m treels -alinstall -t destdir/usr/share COPYLING LICENSE [1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004linstall: cannot stat 'LICENSE': No such file or directory
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls-al
+[?2004lbash: ls-al: command not found
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls -al
+[?2004ltotal 20
+drwxr-xr-x  4 wenger wenger 4096 Mar  3 19:46 [0m[01;34m.[0m
+drwxr-xr-x 16 wenger wenger 4096 Mar  3 19:40 [01;34m..[0m
+-rw-r--r--  1 wenger wenger    0 Mar  3 19:44 20220303.log
+-rw-r--r--  1 wenger wenger    0 Mar  3 19:44 COPYLING
+drwxr-xr-x  5 wenger wenger 4096 Mar  3 19:46 [01;34mdestdir[0m
+drwxr-xr-x  8 wenger wenger 4096 Mar  3 19:43 [01;34m.git[0m
+lrwxrwxrwx  1 wenger wenger    7 Mar  3 19:45 [01;36mLICENSE[0m -> COPYING
+-rw-r--r--  1 wenger wenger   78 Mar  3 19:42 README.md
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls -al[K[K[K[K[K[Kinstall LICENSE  /de[K[Kde[K[K[Kdestdir/usr/share/
+[?2004linstall: cannot stat 'LICENSE': No such file or directory
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls-al
+[?2004lbash: ls-al: command not found
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m 
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls -al
+[?2004ltotal 24
+drwxr-xr-x  4 wenger wenger 4096 Mar  3 19:46 [0m[01;34m.[0m
+drwxr-xr-x 16 wenger wenger 4096 Mar  3 19:40 [01;34m..[0m
+-rw-r--r--  1 wenger wenger 4096 Mar  3 19:50 20220303.log
+-rw-r--r--  1 wenger wenger    0 Mar  3 19:44 COPYLING
+drwxr-xr-x  5 wenger wenger 4096 Mar  3 19:46 [01;34mdestdir[0m
+drwxr-xr-x  8 wenger wenger 4096 Mar  3 19:43 [01;34m.git[0m
+lrwxrwxrwx  1 wenger wenger    7 Mar  3 19:45 [01;36mLICENSE[0m -> COPYING
+-rw-r--r--  1 wenger wenger   78 Mar  3 19:42 README.md
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m mkdir src bin lib ibclude[K[K[K[K[K[Knclude
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls
+[?2004l20220303.log  [0m[01;34mbin[0m  COPYLING  [01;34mdestdir[0m  [01;34minclude[0m  [01;34mlib[0m  [01;36mLICENSE[0m  README.md  [01;34msrc[0m
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m mkdir scripts
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls
+[?2004l20220303.log  [0m[01;34mbin[0m  COPYLING  [01;34mdestdir[0m  [01;34minclude[0m  [01;34mlib[0m  [01;36mLICENSE[0m  README.md  [01;34mscripts[0m  [01;34msrc[0m
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install bin destdir/s[Kusr/
+[?2004linstall: omitting directory 'bin'
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install bin destdir/usr/[C[K[C[C[C[C-destdir/usr[Cdestdir/usr destdir/usr
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tree
+[?2004l.
+├── 20220303.log
+├── bin
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+│       └── share
+│           └── COPYLING
+├── include
+├── lib
+├── LICENSE -> COPYING
+├── README.md
+├── scripts
+└── src
+
+10 directories, 5 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m treeinstall bin -d destdir/usr[1P destdir/usrt destdir/usr
+[?2004linstall: omitting directory 'bin'
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m lsa[K[K[Kls 0al
+[?2004lls: cannot access '0al': No such file or directory
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ls -al
+[?2004ltotal 44
+drwxr-xr-x  9 wenger wenger 4096 Mar  3 19:51 [0m[01;34m.[0m
+drwxr-xr-x 16 wenger wenger 4096 Mar  3 19:40 [01;34m..[0m
+-rw-r--r--  1 wenger wenger 4096 Mar  3 19:50 20220303.log
+drwxr-xr-x  2 wenger wenger 4096 Mar  3 19:51 [01;34mbin[0m
+-rw-r--r--  1 wenger wenger    0 Mar  3 19:44 COPYLING
+drwxr-xr-x  5 wenger wenger 4096 Mar  3 19:46 [01;34mdestdir[0m
+drwxr-xr-x  8 wenger wenger 4096 Mar  3 19:43 [01;34m.git[0m
+drwxr-xr-x  2 wenger wenger 4096 Mar  3 19:51 [01;34minclude[0m
+drwxr-xr-x  2 wenger wenger 4096 Mar  3 19:51 [01;34mlib[0m
+lrwxrwxrwx  1 wenger wenger    7 Mar  3 19:45 [01;36mLICENSE[0m -> COPYING
+-rw-r--r--  1 wenger wenger   78 Mar  3 19:42 README.md
+drwxr-xr-x  2 wenger wenger 4096 Mar  3 19:51 [01;34mscripts[0m
+drwxr-xr-x  2 wenger wenger 4096 Mar  3 19:51 [01;34msrc[0m
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tree
+[?2004l.
+├── 20220303.log
+├── bin
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+│       └── share
+│           └── COPYLING
+├── include
+├── lib
+├── LICENSE -> COPYING
+├── README.md
+├── scripts
+└── src
+
+10 directories, 5 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m ins
+insert_path   insmod        install       install-info  instmodsh     
+[36mwenger [34mdemo [31m$[0m install[K[K[K[K[K[K[Ktouch INSTALL HOWTO
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m insa[K[K[K[Kinstall -t /usr/s[K[K[K[K[K[Kdestdir/usr/share/COPYLING [K[K[K[K[K[K[K[K[K[K INSTALL HOWTO 
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tree
+[?2004l.
+├── 20220303.log
+├── bin
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+│       └── share
+│           ├── COPYLING
+│           ├── HOWTO
+│           └── INSTALL
+├── HOWTO
+├── include
+├── INSTALL
+├── lib
+├── LICENSE -> COPYING
+├── README.md
+├── scripts
+└── src
+
+10 directories, 9 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m i[Kinstall -D -t /usr/lib
+[?2004linstall: missing file operand
+Try 'install --help' for more information.
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -D -t /usr/lib README.md 
+[?2004linstall: cannot create regular file '/usr/lib/README.md': Permission denied
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -D -t /usr/lib README.md [1@d[1@e[5@stdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [K
+[?2004linstall: missing file operand
+Try 'install --help' for more information.
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -D -t destdir/usr/lib README.md 
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tr[K[Ktree
+[?2004l.
+├── 20220303.log
+├── bin
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+│       ├── lib
+│       │   └── README.md
+│       └── share
+│           ├── COPYLING
+│           ├── HOWTO
+│           └── INSTALL
+├── HOWTO
+├── include
+├── INSTALL
+├── lib
+├── LICENSE -> COPYING
+├── README.md
+├── scripts
+└── src
+
+11 directories, 10 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m treeinstall -D -t destdir/usr/lib README.md [C[1P[1P[1P[1@b[1@i[1@n[1@/[1@d[1@e[1@o[1P[1P[1P[1@d[1@e[1@m[1@o[C[C[C[C[1P[1@T
+[?2004linstall: cannot stat 'destdir/usr/bin/demo': No such file or directory
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -D -T destdir/usr/bin/demo README.md [1P[1P[1P
+[?2004linstall: cannot stat 'destdir/usr/bin/demo': No such file or directory
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m install -T destdir/usr/bin/demo README.md [C[1P [1P [1P [1P [1P [1P [1P [1P [1P [K[1@R[1@E[1@A[1@D[5@ME.md[1@ 
+[?2004linstall: cannot create regular file 'destdir/usr/bin/demo': No such file or directory
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tree
+[?2004l.
+├── 20220303.log
+├── bin
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+│       ├── lib
+│       │   └── README.md
+│       └── share
+│           ├── COPYLING
+│           ├── HOWTO
+│           └── INSTALL
+├── HOWTO
+├── include
+├── INSTALL
+├── lib
+├── LICENSE -> COPYING
+├── README.md
+├── scripts
+└── src
+
+11 directories, 10 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m treeinstall -T README.md destdir/usr/bin/demo [C[1@-[1@D[1@ 
+[?2004l]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m tree
+[?2004l.
+├── 20220303.log
+├── bin
+├── COPYLING
+├── destdir
+│   ├── bin
+│   ├── sbin
+│   └── usr
+│       ├── bin
+│       │   └── demo
+│       ├── lib
+│       │   └── README.md
+│       └── share
+│           ├── COPYLING
+│           ├── HOWTO
+│           └── INSTALL
+├── HOWTO
+├── include
+├── INSTALL
+├── lib
+├── LICENSE -> COPYING
+├── README.md
+├── scripts
+└── src
+
+12 directories, 11 files
+]0;wenger@LINUX-3415:~/repos/demo[?2004h[36mwenger [34mdemo [31m$[0m exit
+[?2004lexit
+
+Script done on 2022-03-03 19:57:56+08:00 [COMMAND_EXIT_CODE="0"]
